@@ -49,6 +49,7 @@ export function SettingsNav() {
         label={t`Notification channels`}
         icon="bell"
       />
+
       {!hasHosting && <UpdatesNavItem />}
       <NavDivider />
       <SettingsNavItem
@@ -56,6 +57,7 @@ export function SettingsNav() {
         label={t`Localization`}
         icon="globe"
       />
+      <SettingsNavItem path="genai" label={t`Gen AI`} icon="ai" />
       <SettingsNavItem path="maps" label={t`Maps`} icon="pinmap" />
       <SettingsNavItem
         path="whitelabel"

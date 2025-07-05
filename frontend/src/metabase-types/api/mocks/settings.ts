@@ -275,6 +275,7 @@ export const createMockSettings = (
   "ldap-group-membership-filter": "(member={dn})",
   "loading-message": "doing-science",
   "map-tile-server-url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "genai-key": "AXP123-WXBBBB",
   "native-query-autocomplete-match-style": "substring",
   "openai-api-key": null,
   "openai-organization": null,

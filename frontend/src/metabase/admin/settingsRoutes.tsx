@@ -16,6 +16,7 @@ import { AuthenticationSettingsPage } from "./settings/components/SettingsPages/
 import { CloudSettingsPage } from "./settings/components/SettingsPages/CloudSettingsPage";
 import { EmailSettingsPage } from "./settings/components/SettingsPages/EmailSettingsPage";
 import { EmbeddingSettingsPage } from "./settings/components/SettingsPages/EmbeddingSettingsPage";
+import { GenAI } from "./settings/components/SettingsPages/GenAi";
 import { GeneralSettingsPage } from "./settings/components/SettingsPages/GeneralSettingsPage";
 import { LicenseSettingsPage } from "./settings/components/SettingsPages/LicenseSettingsPage";
 import { LocalizationSettingsPage } from "./settings/components/SettingsPages/LocalizationSettingsPage";
@@ -38,6 +39,7 @@ export const getSettingsRoutes = () => (
     <Route path="updates" component={UpdatesSettingsPage} />
     <Route path="email" component={EmailSettingsPage} />
     <Route path="notifications" component={NotificationSettingsPage} />
+    <Route path="genai" component={GenAI} />
     <Route
       path="authentication"
       component={() => <AuthenticationSettingsPage tab="authentication" />}
